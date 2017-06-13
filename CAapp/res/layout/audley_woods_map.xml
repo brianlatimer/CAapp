@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:weightSum="1"
+       android:orientation="vertical"
+	>
+<RelativeLayout 
+     android:id="@+id/audley_woods_maplayout"
+      android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/layout_border"
+       android:layout_weight="0.8"
+       >
+    <TextView
+        android:id="@+id/audley_woods_map_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="AUDLEY WOODS CA"
+		style="@style/map_style"
+        />           
+    <com.esri.android.map.MapView
+        android:id="@+id/audley_woods_mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        initExtent="-8795602 5454553 -8797019 5453132"
+        android:layout_below="@+id/audley_woods_map_title"
+        />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        >
+    <TextView 
+        android:id="@+id/map_filler"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        />
+	</LinearLayout>
+</LinearLayout>

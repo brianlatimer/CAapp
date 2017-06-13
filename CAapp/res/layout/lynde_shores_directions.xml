@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/directions_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    >
+<LinearLayout
+    android:id="@+id/directions_sublayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  	android:orientation="vertical"
+  	>
+  	<TextView
+  	    android:id="@+id/directions_title"
+  	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="DIRECTIONS"
+    	style="@style/municipal_title_style"
+    	
+    	/>
+        
+    <TextView
+        android:id="@+id/directions_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="@string/lynde_shores_directions"
+        android:padding="10dp"
+        /> 
+        </LinearLayout>
+</LinearLayout>

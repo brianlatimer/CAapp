@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/report_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <TextView
+        android:id="@+id/search_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="@string/report_title"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:gravity="center"
+        android:background="@drawable/ca_title_header"
+        android:textColor="#FFFFFF"
+        />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/report_scroll_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:gravity="center" 
+    	android:paddingTop="40dp"
+    	android:paddingBottom="40dp">   
+    <Button
+        android:id="@+id/hazard_report_button"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:text="@string/hazard_report" /> 
+        
+        
+    <Button
+        android:id="@+id/flood_report_button"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:text="@string/flood_report" />
+
+    <Button
+        android:id="@+id/species_report_button"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:text="@string/species_report" />
+        
+    <Button
+        android:id="@+id/fish_report_button"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:text="@string/fish_report" />
+    
+    <Button
+        android:id="@+id/CA_general_report_button"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15sp"
+        android:text="@string/CA_general_report" />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

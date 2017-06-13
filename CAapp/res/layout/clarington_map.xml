@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clarington_maplayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/layout_border"
+    tools:context=".Bowmanville_Westside_Directions" >
+
+    <TextView
+        android:id="@+id/clarington_map_title"
+        style="@style/map_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CLARINGTON"
+        tools:ignore="HardcodedText" />
+
+    <com.esri.android.map.MapView
+        android:id="@+id/clarington_mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        initExtent="-8752040 5478137 -8803957 5436877"
+        android:gravity="center" />
+
+</RelativeLayout>

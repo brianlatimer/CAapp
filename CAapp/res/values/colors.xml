@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="main_theme_background">#999999</color>
+	<color name="transparent">#00000000</color>
+	<color name="white_panel_background">#FFFFFF</color>
+	<color name="black_text">#000000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="cloca_blue">#0A9AB5</color>
+    
+</resources>

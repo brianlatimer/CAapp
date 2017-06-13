@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/crows_passlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+     >
+    <LinearLayout
+	    android:id="@+id/home_sublayout3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:padding="5dp"
+	    >
+    <TextView
+            android:id="@+id/crows_passtitle"
+            android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+            android:text="@string/crows_pass_title"
+			style="@style/ca_title_style"
+			android:background="@drawable/ca_title_header"
+            />
+    </LinearLayout>
+   		 
+<TableLayout
+	    android:id="@+id/crows_pass_tablelayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:gravity="center"
+		android:stretchColumns="1,2"
+		android:paddingTop="5dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+	  	>
+    <TableRow>
+        <Button
+	    android:id="@+id/crows_pass_activities_button"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_column="1"
+	    android:textStyle="bold"
+	    android:text="ACTIVITIES" 	
+	    />
+
+        <Button
+            android:id="@+id/view_crows_pass_map_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:textStyle="bold"
+            android:text="VIEW MAP" />
+	    </TableRow>
+	    </TableLayout>
+
+<ImageView
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:paddingTop="5dp"
+    	    android:paddingRight="10dp"
+    	    android:paddingLeft="10dp"
+    	    android:src="@drawable/divider"
+    	    />
+
+<ScrollView
+       	android:id="@+id/crows_pass_scroll_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+	 <LinearLayout
+        android:id="@+id/crows_pass_linear_scroll_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:id="@+id/crows_pass_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:src="@drawable/crows_pass_photo"
+        android:background="@drawable/ca_image_border"
+        android:layout_gravity="center"
+        />
+     <LinearLayout
+        android:id="@+id/crows_pass_linear_scroll_layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/description_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/ca_title_header"
+        android:text="@string/description_title" />
+    
+    <TextView
+        android:id="@+id/crows_pass_description"
+        android:layout_width="fill_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/crows_pass_description"
+         />
+    </LinearLayout>
+       
+    
+    </LinearLayout>
+    </ScrollView>
+
+ </LinearLayout>

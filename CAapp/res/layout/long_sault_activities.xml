@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/activities_background"
+    >
+    
+        <TextView
+            android:id="@+id/long_sault_activities_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/title_style"
+            android:text="@string/activities_title"
+            />
+       
+        <ScrollView
+            android:id="@+id/long_sault_activities_scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+        <LinearLayout
+        	android:id="@+id/long_sault_activities_layout"
+        	android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    	>
+        
+        <TableLayout
+            android:id="@+id/long_sault_activities_table"
+            android:layout_width="fill_parent"
+	   		android:layout_height="fill_parent"
+	   		android:orientation="horizontal"
+	   		android:stretchColumns="1"
+            >
+           <TableRow>
+               <TextView
+            		android:id="@+id/hiking_title"
+            		android:text="Hiking"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/long_sault_hikingimage"
+                    android:src="@drawable/hikingimage" 
+					style="@style/table_image_layout"
+                    />
+             
+                <TextView
+                    android:id="@+id/long_sault_hikingtext"
+                    android:text="@string/long_sault_hikingtext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+            
+            <TableRow>
+               <TextView
+            		android:id="@+id/biking_title"
+            		android:text="Mountain Biking"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                >
+                <ImageView
+                    android:id="@+id/long_sault_bikingimage"
+                    android:src="@drawable/bikingimage" 
+					style="@style/table_image_layout"
+                    />             
+                <TextView
+                    android:id="@+id/long_sault_bikingtext"
+                    android:text="@string/long_sault_bikingtext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+            
+                <TableRow>
+               <TextView
+            		android:id="@+id/snowshoeing_title"
+            		android:text="Snowshoeing"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                >
+                <ImageView
+                    android:id="@+id/long_sault_snowshoeingimage"
+                    android:src="@drawable/snowshoeingimage" 
+					style="@style/table_image_layout"
+                    />             
+                <TextView
+                    android:id="@+id/long_sault_snowshoeingtext"
+                    android:text="@string/long_sault_snowshoeingtext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+            
+                 <TableRow>
+               <TextView
+            		android:id="@+id/dogsledding_title"
+            		android:text="Dogsledding"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                >
+                <ImageView
+                    android:id="@+id/long_sault_dogsleddingimage"
+                    android:src="@drawable/dogsleddingimage" 
+					style="@style/table_image_layout"
+                    />             
+                <TextView
+                    android:id="@+id/long_sault_dogsleddingtext"
+                    android:text="@string/long_sault_dogsleddingtext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+            
+            <TableRow>
+               <TextView
+            		android:id="@+id/picnicking_title"
+            		android:text="Picnicking"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                >
+                <ImageView 
+                    android:id="@+id/long_sault_picnickingimage"
+                    android:src="@drawable/picnickingimage"
+					style="@style/table_image_layout"
+                    />
+                <TextView
+                    android:id="@+id/long_sault_picnickingtext"
+                    android:text="@string/long_sault_picnickingtext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+            <TableRow>
+               <TextView
+            		android:id="@+id/wildlifeviewing_title"
+            		android:text="Wildlife Viewing"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                >
+                <ImageView 
+                    android:id="@+id/long_sault_wildlifeviewingimage"
+                    android:src="@drawable/wildlifeviewingimage"
+                    style="@style/table_image_layout"
+                    />
+                <TextView
+                    android:id="@+id/long_sault_wildlifeviewingtext"
+                    android:text="@string/long_sault_wildlifeviewingtext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+          
+            <TableRow>
+               <TextView
+            		android:id="@+id/naturestudies_title"
+            		android:text="Nature Studies"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                >
+                <ImageView 
+                    android:id="@+id/long_sault_naturestudiesimage"
+                    android:src="@drawable/naturestudiesimage"
+                    style="@style/table_image_layout"
+                    />
+                <TextView
+                    android:id="@+id/long_sault_naturestudiestext"
+                    android:text="@string/long_sault_naturestudiestext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+        </TableLayout>
+        
+    </LinearLayout>
+</ScrollView>
+   
+
+</LinearLayout>

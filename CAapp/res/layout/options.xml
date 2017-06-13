@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/options_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/home_background"
+    >
+    <LinearLayout 
+        android:id="@+id/options_sublayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:id="@+id/options_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/options_title"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/ca_title_header"            
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/language_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:text="@string/language_title"
+            android:textSize="15dp"
+            />
+        <Spinner
+            android:id="@+id/language_spinner"
+            android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:entries="@array/language_entries"
+    	    />
+    </LinearLayout>
+    <TableLayout
+		android:id="@+id/options_table"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:stretchColumns="1"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingTop="20dp">
+	<TableRow>
+	    <Button
+		    android:id="@+id/settings_cancel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Cancel"
+		    />
+		<Button
+	    	android:id="@+id/options_save"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_column="1"
+	    	android:textStyle="bold"
+	    	android:text="Save"
+	    	/>
+	</TableRow>
+</TableLayout>
+
+    
+
+</LinearLayout>

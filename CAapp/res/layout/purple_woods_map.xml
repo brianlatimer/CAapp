@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:weightSum="1"
+       android:orientation="vertical"
+	>
+<RelativeLayout 
+     android:id="@+id/purple_woods_maplayout"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/layout_border"
+       android:layout_weight="0.8"
+       >
+    <TextView
+        android:id="@+id/purple_woods_map_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/purple_woods_title"
+        style="@style/map_style"
+        />
+     <com.esri.android.map.MapView
+        android:id="@+id/purple_woods_mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/purple_woods_map_title"
+        initExtent="-8785795 5470277 -8784411 5471666"
+        />
+
+	</RelativeLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        >
+    <TextView 
+        android:id="@+id/map_filler"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/submenu_help"
+        android:title="@string/submenu_help"
+        android:orderInCategory="1"
+        >
+        </item>
+    <item 
+        android:id="@+id/submenu_options"
+        android:title="@string/submenu_options"
+        android:orderInCategory="2"
+        >
+        </item>
+   
+</menu>

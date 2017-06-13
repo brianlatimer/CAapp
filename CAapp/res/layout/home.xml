@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout
+        android:id="@+id/home_sub_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:background="@drawable/background"
+         >
+
+        <ImageView
+            android:id="@+id/title_layout"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="5dp"
+            android:contentDescription="@string/image_1"
+            android:src="@drawable/calogo" />
+
+	<LinearLayout
+	    android:id="@+id/home_sublayout2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:background="@drawable/blue_layout_border"
+	    android:layout_gravity="center"
+	    android:orientation="vertical"
+	    android:padding="20dp"
+	    android:paddingBottom="10dp"
+	    >
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/search_button"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/contact_us_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/contact_us_button"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/about_button"
+            android:textStyle="bold" />
+        
+        <Button
+            android:id="@+id/report_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/report_button"
+            android:textStyle="bold" />
+        	
+        <ImageView
+            android:id="@+id/cloca_logo"
+            android:layout_width="125dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:contentDescription="@string/image_2"
+            android:src="@drawable/cloca_logo"
+            />
+	</LinearLayout>
+	
+	     <ImageView
+	         android:id="@+id/tagline_layout"
+	         android:layout_width="225dp"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center"
+	         android:paddingTop="20dp"
+	         android:paddingBottom="5dp"
+	         android:contentDescription="@string/image_3"
+	         android:src="@drawable/getoutdoors" />
+        
+    </LinearLayout>
+
+</LinearLayout>

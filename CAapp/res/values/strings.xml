@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CLOCA Conservation Areas</string>
+    <string name="title">CLOCA Conservation Areas</string>
+    <string name="search_button">SEARCH</string>
+    <string name="about_button">ABOUT</string>
+    <string name="contact_us_button">CONTACT US</string>
+    <string name="main_tagline"><i>Durham Region\'s source for Conservation Area information.</i></string>
+    <string name="submenu_help">HELP</string>
+    <string name="submenu_options">OPTIONS</string>
+    <string name="search_title">WHERE WOULD YOU LIKE TO SEARCH?</string>
+    <string name="album_name">CLOCA</string>
+    <string name="cannot">Cannot</string>
+    <string name="category_info">""</string>
+    <string name="cons_general"><b>"We\'d love to see your pictures of our Conservation Area\'s. Please note that all images submitted become the property of the Central Lake Ontario Conservation Authority. For additional information, please see our <a href="http://www.cloca.com">disclaimer</a>."</b></string>
+    <string name="species_sighting"><b>"Did you see something interesting in one of our watersheds or Conservation Areas?  We’d love to hear about it.  Send us a photo with the name of the animal in the comments section and we’ll add it to our database.  We might even use your photo in one of our publications!  (If you weren’t able to capture a photo don’t worry, you can still tell us what you saw by filling out the comment section and hitting send.)."</b></string>
+    <string name="fish_concerns"><b>Spawning surveys occur in both the spring and fall. Chinook Salmon are common in the fall and Rainbow Trout and White Sucker in the spring. Reports on quantity, location, and barriers to migration help with the long-term management of these species. Please indicate the approximate number of fish and the species, if known. If any barriers to migration are observed please include this information in the comments section with an attached picture. </b></string>    
+    <string name="cons_area_concerns"><b>Although our staff conduct trail assessments and routinely service our Conservation Areas, we rely on the assistance of our visitors to keep our Areas safe and clean. We invite our visitors to report any safety issues or property damage including fallen trees, damaged trail, missing signs, graffiti, garbage dumping, off trail activities, or inappropriate conduct. Please include the Conservation Area name, trail name, and any other nearby feature </b></string>
+    <string name="flood_concerns"><b>Help the CLOCA Water Monitoring and Flood Forecasting and Warning team by submitting daily rainfall accumulation (rain gauges are available from CLOCA), or by submitting photographs and reports of flooding streams or roadways, ice jams and debris jams.</b></string>
+    <string name="search_clarington"><b>CLARINGTON</b></string>
+    <string name="search_oshawa"><b>OSHAWA</b></string>
+    <string name="search_scugog"><b>SCUGOG</b></string>
+    <string name="search_whitby"><b>WHITBY</b></string>
+    <string name="search_other_areas"><b>OTHER AREAS</b></string>
+    <string name="report_button">SEND A REPORT</string>
+    <string name="report_title">Send a report to CLOCA.</string>
+    <string name="species_report">Wildlife Sightings.</string>
+    <string name="hazard_report">Conservation Areas Concerns.</string>
+    <string name="CA_general_report">Conservation Areas General Photo\'s.</string>
+    <string name="flood_report">Flooding.</string>
+    <string name="fish_report">Fish sightings and concerns.</string>
+    <string name="image_3">A picture of something</string>
+    <string name="image_2">A picture of something</string>
+    <string name="image_1">A picture of something</string>
+    <string name="parking">Parking Passes - Click Here!</string>
+    <string name="selectpicture">Select a Picture</string>
+    <string name="takepicture">Take a Picture</string>
+    <string name="takevid">Take a video</string>
+    <string name="sendreport">Send Report</string>
+    <string name="description_hint">Enter any additional information here.</string>
+    <string name="loc_txt"></string>
+    
+    <string name="clarington_description">
+        Clarington is situated in the eastern part of CLOCA\'s jurisdiction and 
+        houses four publicly accessible Conservation Areas (CA).
+    </string>
+    <string name="clarington_title">Clarington</string>
+        
+    <string name="whitby_description">
+        Whitby is located in the western portion of CLOCA\'s jurisdiction and houses two publicly accessible Conservation Areas (CA).
+    </string>
+    
+    <string name="oshawa_description">
+        Oshawa is located centrally within CLOCA\'s jurisdiction and houses one publicly accessible Conservation Area (CA).
+        </string>
+    
+    <string name="about_title">ABOUT</string>
+    <string name="about_summary">This application was designed and built by the Central Lake
+        Ontario Conservation Authority and has been built for informational purposes.
+        \n
+      Central Lake Ontario Conservation Authority was established in 1958. Our mandate 
+      is to establish and undertake programs to promote the conservation, restoration, 
+      development and management of natural resources in partnership with local 
+      Municipalities and the Province. 
+      \n
+      The Authority\'s jurisdiction consists of 627 square kilometres and is defined as 
+      the areas drained by the above fifteen watersheds.
+      \n
+      Municipalities located within the jurisdiction, all or in part, include: Cities of Oshawa and Pickering, 
+      Towns of Ajax and Whitby, Municipality of Clarington, Townships of Scugog and Uxbridge. 
+        </string>
+    <string name="about_header">ABOUT</string>
+
+    <string name="contact_title"><b>CONTACT US</b></string>
+    <string name="contact_name_title"><b>Contact Information:</b></string>
+    <string name="contact_name_description">For additional information regarding this application or CLOCA please contact:</string>
+    <string name="contact_name_1"> Central Lake Ontario Conservation Authority - Head Office</string>
+    <string name="contact_phone_1">Phone:(905) 579-0411</string>
+    <string name="contact_email_1">e-mail: mail@cloca.com</string>
+    
+    <string name="get_involved_title"><i>Get Involved!</i></string>
+    <string name="get_involved_text">
+        CLOCA offers a range of volunteer experiences to families, 
+        high school students, retired professionals and people looking to create a 
+        healthier planet.
+        \n
+        \n
+        Volunteer opportunities include conservation area management, 
+        photography, creek cleanups, trail construction and repair, tree planting 
+        and habitat creation, monitoring wildlife and water quality, community outreach 
+        at public events like Purple Woods Maple Syrup Festival and assistance with 
+        education programs like our Durham Children\'s Groundwater Festival.
+        \n
+		\n
+		Visit the volunteer section of our website (www.cloca.com/volunteer/index.php) to 
+		find out about current volunteer opportunities.
+	</string>
+       
+    <string name="directions_title">Directions:</string>
+    <string name="description_title">DESCRIPTION:</string>
+   
+    <string name="heberdown_title">HEBER DOWN CA</string>
+    <string name="heberdown_directions">
+        Exit 401 at Brock St. in Whitby. Take Taunton Rd. LEFT from Brock St. 
+        to Country Lane Rd. Go RIGHT on Country Lane Rd. and travel north to the main 
+        entrance. Enter through the main gate and follow the road to the day-use parking 
+        lot. 
+        </string>
+    <string name="heberdown_description">
+        The Heber Down Conservation Area 
+        (284 hectares) offers a variety of activities for the recreation-minded. 
+        Group camping, fishing, nature walks, and picnicking are all popular 
+        activities that can be carried out just a short distance from home. 
+        More importantly, Heber Down Conservation Area preserves a portion of 
+        the significant Iroquois Beach physiographic unit. 
+        \n
+        \n
+       	The natural valley of the Lynde Creek bisects a portion of this Conservation 
+        Area and provides many scenic vistas for those enjoying some of the 5 km of 
+        flat to gently sloped trail that runs through this property. 
+        \n
+        \n
+     	Springs and seeps within the provincially significant Heber Down Wetland Complex 
+        provide important groundwater recharge to this branch of the Lynde Creek Watershed. 
+        This wetland complex also provides specialized habitat for many wildlife species 
+        that depend on large treed wetland areas in order to carry out their breeding 
+        and feeding activities. 
+     </string>
+    <string name="heberdown_hikingtext">The different trail types at Heber Down Conservation Area means there should be one for everyone. From stroller and wheelchair-friendly trails and trails with plenty of boardwalk and stairs, to longer hiking trails, visitors are bound to find a favourite. </string>
+    <string name="heberdown_picnickingtext">There are several excellent locations to have a picnic within this Conservation Area. Open and sheltered picnic areas are available for events such as weddings, family picnics and corporate events.</string>
+    <string name="heberdown_educationtext">The Central Lake Ontario Conservation Authority can arrange to run school programs at Heber Down Conservation Area.</string>
+    <string name="heberdown_fishingtext">Heber Down offers a number of good fishing access points to the Lynde Creek and the Devil’s Den Pond. These areas are favourite destinations for many fishing enthusiast. Please stay on the designated trails, take your garbage with you, and fish only at approved locations. Ontario fishing regulations apply. </string>
+    <string name="heberdown_petpolicytext">Pets are permitted within Heber Down Conservation Area. Please clean up after your pet, and keep them on a leash (maximum 2 m long) at all times. Pet owners violating these regulations will be fined. </string>
+	<string name="heberdown_wildlifeviewingtext">There is plenty of opportunity to view all kinds of interesting wildlife within this large and diverse area. Why not join members from the Iroquois Shoreline (Heber Down Conservation Area) Raptor Watch (mid August - November 30th) as they identify and record the number raptors that fly over this important area every fall. </string>   
+    <string name="heberdown_naturestudiestext">The Lynde Creek, Heber Down Wetland Complex and Iroquois Beach physiographic unit make Heber Down Conservation Area an ideal location to carry out your nature studies. Please apply for a Sensitive Areas Permit if you would like to venture beyond the designated trail system and activity areas. </string>
+	<string name="heberdown_groupcampingtext">The Group Camping Area at Heber Down Conservation Area is a great place for non-profit groups (less than 500 people) to camp for a weekend. The Group Camping Area is available year round.</string>
+     
+    <string name="enniskillen_title">ENNISKILLEN CA</string>
+    <string name="enniskillen_directions">
+        Exit 401 at Waverly Rd. Travel North on Regional Rd. #57. Turn Left at Concession 
+        Rd. 7. Turn Right on Holt Road and follow the signs.
+        </string>
+    <string name="enniskillen_description">
+        Cedar swamp, open wetlands and bubbling brooks everything you would expect to find 
+        on the south slopes of the provincially significant Oak Ridges Moraine. The 
+        65-hectare Enniskillen Conservation Area is located only a stone’s throw away from 
+        the small village of Enniskillen and offers a small network of trails through 
+        beautiful coniferous forest. The 3 km trail network includes numerous sections 
+        of boardwalk that cross an upper portion of the Bowmanville Creek five times. 
+        \n
+        \n
+       	By combining a hike with a nice picnic with family and friends at one of the group 
+       	picnicking areas, Enniskillen Conservation Area can make for a great day out. 
+        \n
+        \n
+	    The area is known for its local history including the Moorey Grist Mill (built 
+	    just north of the Education Centre in 1874 and dismantled in 1956) that used 
+	    to take advantage of the constant supply of water that continues to run through 
+	    the property today. Although the mill no longer exists, you can still see the 
+	    earthen dam, which held back the creek water to produce the millpond.
+ 
+     </string>
+    <string name="enniskillen_hikingtext">The 3 km trail network makes Enniskillen 
+            Conservation Area a great destination for someone looking to do a short hike 
+            through beautiful cedar forest while crossing over an upper tributary of the 
+            Bowmanville Creek several times.</string>
+    <string name="enniskillen_picnickingtext">There are several excellent locations 
+     	    to have a picnic within this Conservation Area. Open and sheltered picnic areas 
+     	    are available for events such as weddings, family picnics and corporate 
+     	    events.</string>
+    <string name="enniskillen_educationtext">The Central Lake Ontario Conservation 
+     	    Authority Education Centre is situated at Enniskillen Conservation Area. The 
+     	    Education Centre is available for school education programs run by the 
+     	    Authority.</string>
+    <string name="enniskillen_fishingtext">The trail network at Enniskillen 
+     	    Conservation Area crosses the Bowmanville Creek several times. These crossings 
+     	    provide opportunities for the fishing enthusiast. Please stay on the designated 
+     	    trails, take your garbage with you, and fish only at approved locations. Ontario 
+     	    Fishing Regulations apply.</string>
+    <string name="enniskillen_petpolicytext">Pets are permitted within Enniskillen 
+     	    Conservation Area. Please clean up after your pet, and keep them on a leash 
+     	    (maximum 2 m long) at all times. Pet owners violating these regulations will 
+     	    be fined. </string>
+    <string name="enniskillen_xcountryskiingtext">The 3 Km trail network offers some 
+     	    opportunities for cross-country skiing at Enniskillen Conservation Area. Please 
+     	    be aware that the ski trails at Enniskillen Conservation Area are not groomed, 
+     	    skiing equipment cannot be rented at the Conservation Area, and that boardwalk 
+     	    sections of the trail may present less than ideal skiing conditions. </string>
+    <string name="enniskillen_wildlifeviewingtext">The cedar forest/swamp communities 
+     	    and rolling open meadows provide visitors with many different opportunities to 
+     	    view wildlife at all times of the year. </string>   
+    <string name="enniskillen_naturestudiestext">Enniskillen Conservation Area includes 
+     	    an excellent example of a treed cedar forest/swamp valleyland that is typical 
+     	    to this area. Please apply for a Sensitive Areas Permit if you would like to 
+     	    venture beyond the designated trail system and activity areas. </string>
+     	    
+    <string name="bowmanville_westside_title">BOWMANVILLE/WESTSIDE MARSHES CA</string>
+    <string name="bowmanville_westside_directions">Exit Hwy. 401 at Liberty Street exit 
+        in Bowmanville, turn east onto Lake Road (south of Hwy. 401), turn right onto 
+        Port Darlington Road, turn right (west) onto West Beach Road and travel 0.75 km, 
+        turn right into Bowmanville/Westside Marshes Conservation Area parking facility. 
+        </string>
+    <string name="bowmanville_westside_description">Officially opened in June 2006, the 
+        Bowmanville / Westside Marshes Conservation Area is over 80 hectares in size and 
+        includes two provincially significant coastal wetlands (Bowmanville Marsh and 
+        Westside Marsh) and their surrounding lands. The Westside Marsh, originally owned 
+        by St Marys Cement and recently dedicated to the Central Lake Ontario Conservation
+         Authority, has undergone extensive restoration activities over the last several 
+         years. 
+        \n
+        \n
+		Continuing restoration work within Westside Marsh and the land connecting it to 
+		the Bowmanville Marsh will provide more quality wildlife habitat areas, and enhance 
+		existing habitat areas that are already important to many wildlife species for both 
+		breeding and feeding activities. This Conservation Area provides good habitat for 
+		nesting birds and acts as an important stopover point for waterfowl and shorebirds 
+		migrating along the north shore of Lake Ontario.
+        \n
+        \n
+		In addition to their importance to wildlife, both Bowmanville Marsh and Westside 
+		Marsh provide many other important functions that are typical of the few remaining
+		coastal wetlands found along this northern section of the Lake Ontario shoreline.
+		As result, these two marshes are designated as provincially significant wetlands 
+		and are part of a long-term study, the Durham Region Coastal Wetland Monitoring 
+		Project.
+		\n
+		\n
+		To help you get a closer look at this important area, the Bowmanville/Westside 
+		Marshes Conservation Area has a 1.5 Km looping trail around the upland area 
+		between the two wetlands. This trail is just the right length for little ones 
+		and is generally stroller and wheelchair friendly. Two raised viewing mounds 
+		give visitors to the area good views into the two wetland areas. Looking for 
+		more of a workout? Why not hop onto the Waterfront Trail, which is directly 
+		accessible from the Bowmanville/Westside Marshes Conservation Area parking 
+		facility. Remember to bring a camera, because you just never know what you 
+		might see!
+     </string>
+    <string name="bowmanville_westside_hikingtext">A short, level and looping 
+            trail that is generally stroller and wheelchair friendly makes the 
+            Bowmanville/Westside Marshes Conservation Area a convenient destination 
+            for those looking to get close to nature with minimal effort. There is 
+            also quick access to the Waterfront Trail from the Conservation Areas 
+            main parking facility! </string>
+    <string name="bowmanville_westside_picnickingtext">No formal picnicking 
+     	    facilities are provided at Bowmanville/Westside Marshes Conservation. 
+     	    However, mowed areas directly surrounding the parking area provide a 
+     	    nice spot to lay out your picnic blanket. Here you can enjoy a cool 
+     	    lake breeze with nice views into the adjacent Bowmanville Marsh. 
+     	    Stone benches located along the trail overlooking Westside Marsh 
+     	    also provide a nice venue to enjoy a picnic. No reservations are 
+     	    required. Please refrain from feeding any interested wildlife. </string>
+    <string name="bowmanville_westside_wildlifeviewingtext">Two provincially 
+     	    significant wetlands on the shores of Lake Ontario help make 
+     	    Bowmanville/Westside Marshes Conservation Area an important place 
+     	    for many different wildlife species. This area is also an important 
+     	    migratory stopover point for thousands of migrating waterfowl and 
+     	    shorebirds. A visit to the Westside Marsh viewing mound gets you 
+     	    within close proximity to the wetland. From here you might see an 
+     	    osprey in action on one of the elevated nesting platforms located 
+     	    within the wetland.</string>   
+    <string name="bowmanville_westside_naturestudiestext">Both unique plants 
+     	    and wildlife can be found at Bowmanville/Westside Marshes Conservation 
+     	    Area as a result of these two provincially significant coastal wetlands. 
+     	    Please apply for a Sensitive Areas Permit if you would like to venture 
+     	    beyond the designated trail system and activity areas. </string>
+   
+    <string name="long_sault_title">LONG SAULT CA</string>
+    <string name="long_sault_directions">Exit 401 at Waverly Rd. Travel North on Regional 
+        Rd. #57. Turn right at Regional Rd. #20. Turn left at Woodley Rd.</string>
+    <string name="long_sault_description">Nestled in the heart of the provincially 
+        significant Oak Ridges Moraine, Long Sault Conservation Area is the largest 
+        Area owned and managed by the Central Lake Ontario Conservation Authority. 
+        Once part of the Agreement Forest program operated by the Ontario Ministry 
+        of Natural Resources, Long Sault Conservation Area now includes close to 400 
+        hectares of mature forest, plantation, wetland and meadow. The area is considered 
+        an important core wildlife area because of the diversity and size of habitats that 
+        it contains. This Conservation Area also includes headwater tributaries that are 
+        an important part of the Bowmanville/Soper Creek Watershed. 
+        \n
+        \n
+       	Much of Long Sault Conservation Area\'s natural beauty can be seen from any section 
+       	of the more than 18 km of marked trails that wind throughout the property. With trails 
+       	that range in difficulty from gently sloping straight trails, to technical rolling and 
+       	quickly turning trails, Long Sault Conservation Area is a favourite destination for many 
+       	outdoor enthusiasts looking to pursue a number of different recreational activities.
+      </string>
+    <string name="long_sault_hikingtext">With over 18 km of trails spread out over five different loops, most hikers will not get tired of coming back to Long Sault Conservation Area over and over again. The trails at Long Sault Conservation have been designed and signed so that hikers travel in the opposite direction of mountain bikers/cross-country skiers. Please look for the direction of travel on trailhead signs and on trail posts. During the cross-country ski season, hikers are asked to stay off the established cross-country ski track by only traveling along the side of the trail. 
+		\n
+\n
+Long Sault Conservation Area can also be used as a jump off point for hiking along the Oak Ridges Trail. Accessible from the main parking area, the Oak Ridges Trail uses part of the trail network within Long Sault Conservation Area. Follow the Oak Ridges Trail signs and blazes that can be found along the designated route. Click for more information on the Oak Ridges Trail. 
+</string>
+    <string name="long_sault_picnickingtext">Several picnic tables are located in the cleared area adjacent to the main parking lot. No bookings are required for the use of these picnic tables. 
+</string>
+    <string name="long_sault_petpolicytext">Pets are permitted within Long Sault Conservation Area. Please clean up after your pet, and keep them on a leash (maximum 2 m long) at all times. Pet owners violating these regulations will be fined. 
+</string>
+	<string name="long_sault_xcountrytext">Cross-country skiing can be enjoyed on all of the trails (over 18 km) at Long Sault Conservation Area. Please follow the direction of travel indicated for skiers (opposite to hikers) on the trailhead signs and trail posts. Please be aware that the ski trails at are not groomed and that skiing equipment cannot be rented at the Conservation Area. 
+	</string>
+	<string name="long_sault_bikingtext">All trails at Long Sault Conservation Area are now open to mountain biking (the Eastern Bluebird Trail is open to mountain biking on a trial basis). Mountain bikers are asked to follow the direction of travel for mountain biking (opposite to hikers) that is indicated on the trailhead signs and trail posts. Mountain bikers are also asked to please reduce their speed when traveling around tight turns and when cycling down steep sections. 
+</string>  
+	<string name="long_sault_snowshoeingtext">Snowshoeing is permitted on all of the trails at Long Sault Conservation Area. Please snowshoe in the direction of travel posted for hikers (opposite to skiers) and stay off the established cross-country ski track by only traveling along the side of the trail. Please note that snowshoeing equipment cannot be rented at the Conservation Area. 
+</string> 
+	<string name="long_sault_dogsleddingtext">Dog sledding may be permitted at Long Sault Conservation Area. Please contact the Central Lake Ontario Conservation Authority for further information if you would like to carry out dog sledding activities within Long Sault Conservation Area. 
+</string>
+	<string name="long_sault_wildlifeviewingtext">Long Sault Conservation Area is a great place to see and hear many different bird species. Because of its large size and diversity of habitat, you never know what you are going to see when you are at Long Sault Conservation Area.
+</string>   
+	<string name="long_sault_naturestudiestext">Because of Long Sault Conservation Area’s large size (close to 400 hectares) and diversity of vegetation communities (forest, woodland, swamp, marsh, thicket, plantation and meadow), this is a great area to carry out your studies on a variety of topics. Please apply for a Sensitive Areas Permit if you would like to venture beyond the designated trail system and activity areas. 
+</string>
+	
+    <string name="lynde_shores_title">LYNDE SHORES CA</string>
+    <string name="lynde_shores_directions">Exit Hwy. 401 at Brock St. in Whitby, travel 
+        south. to Victoria St. (1st lights), turn right and travel approx. 2.5km to 
+        Lynde Shores Main Parking Lot on Victoria Street.  </string>
+    <string name="lynde_shores_description">Established in 1972, the 272-hectare Lynde 
+        Shores Conservation Area, together with the adjacent Cranberry West Tract (40 hectares) 
+        is well known for its wildlife viewing opportunities. Including both Lynde Creek Marsh 
+        and Cranberry Marsh, the Lynde Shores Conservation Area provides excellent habitat for 
+        nesting birds and acts as an important stopover point for waterfowl and shorebirds 
+        migrating along the north shore of Lake Ontario. 
+        \n
+        \n
+       In addition to their importance to wildlife, both Lynde Creek Marsh and Cranberry Marsh 
+       provide many other important functions that are typical of the few remaining coastal 
+       wetlands found along this northern section of the Lake Ontario shoreline. As result, 
+       these two marshes are designated as provincially significant wetlands and are part of 
+       a long-term study, the Durham Region Coastal Wetland Monitoring Project.  
+        \n
+        \n
+       To help you get a closer look at this important area, Lynde Shores Conservation Area 
+       has a number of looping trails (5 km including the 1 km looping trail within the Cranberry 
+       West Tract). These trails are just the right length for little ones and are generally 
+       stroller and wheelchair friendly. Or, take a walk along the boardwalk to get a sense 
+       of what it feels like to be out in the middle of the Lynde Creek Marsh. Bring a camera, 
+       because you just never know what you might see! 
+       \n
+       \n
+       NO DOGS ALLOWED POLICY AT LYNDE SHORES CONSERVATION AREA
+       \n
+       \n
+       There are many good reasons why a no dogs allowedpolicy is in place at Lynde Shores 
+       Conservation Area. This Conservation Area includes two provincially significant wetlands 
+       Lynde Marsh and Cranberry Marsh. Because of their location on the shores of Lake Ontario 
+       and because of their diversity in both wetland and upland plant communities, these two 
+       wetland areas a extremely important to many wildlife species including birds, amphibians, 
+       reptiles, and mammals. Although the wetlands themselves provide critical habitat for many 
+       species, the upland areas (both grasslands and woodlands) adjacent to the wetlands area 
+       are also critical to many water-dependent wildlife. Many ground-nesting birds, including 
+       some duck species, require these upland habitats adjacent to wetlands for nesting and 
+       food gathering. Dogs have been known to destroy these nests, or scare the female off 
+       the nest causing her to never return.
+       \n
+       \n
+       So, to help keep Lynde Shores Conservation Area a wildlife friendly zone, please leave 
+       your pets at home when visiting this important wildlife area.
+     </string>
+    <string name="lynde_shores_hikingtext">Short, level and looping trails that are generally stroller and wheelchair friendly make the Lyndes Shores Conservation Area a convenient destination for those looking to get close to nature with minimal effort. The Birdfeeder Trail is a favourite with young families. Watch your children\'s expression as birds feed from their hands.
+</string>
+    <string name="lynde_shores_picnickingtext">Several picnic tables are located adjacent to the main parking area off of Victoria Street and at a picnic area on the trail at the Cranberry West Tract. No reservations are required. Please refrain from feeding any interested wildlife. 
+</string>
+    <string name="lynde_shores_educationtext">The Central Lake Ontario Conservation Authority can arrange to run school programs at Lynde Shores Conservation Area. 
+</string>
+    <string name="lynde_shores_fishingtext">Several designated fishing spots are located within the Lynde Creek Marsh only seconds from the parking area. Please stay on the designated trails, take your garbage with you, and fish only at approved locations. Ontario Fishing Regulations apply. Fishing is not permitted within Cranberry Marsh. 
+</string>
+    <string name="lynde_shores_wildlifeviewingtext">Two provincially significant wetlands on the shores of Lake Ontario help make Lynde Shores Conservation Area an important place for many different wildlife species. This area is also an important stopover point for thousands of migrating waterfowl and shorebirds. Why not join members of the Cranberry Marsh Raptor Watch (mid-August to November 30th) as they identify and record the number of raptors that fly over this important area every fall.
+</string>   
+    <string name="lynde_shores_naturestudiestext">Both unique plants and wildlife can be found at Lynde Shores Conservation Area as a result of these two provincially significant coastal wetlands. Please apply for a Sensitive Areas Permit if you would like to venture beyond the designated trail system and activity areas. 
+</string>
+	<string name="lynde_shores_canoeingtext">A seasonal canoe launch, with access to Lynde Creek Marsh, is located near the main parking area. This launch is only open from July 15 to September 15 in order to minimize the disturbance to wildlife during their sensitive breeding and migration periods. 
+</string>
+        
+    <string name="purple_woods_title">PURPLE WOODS CA</string>
+    <string name="purple_woods_directions">Purple Woods is located approximately 5 minutes 
+        north of Oshawa at the intersection of Simcoe Street and Coates Road 
+        (Concession 10).</string>
+    <string name="purple_woods_description">
+       
+		Purple Woods CA will reopen on Saturday, March 10th for the 2012 Purple Woods Maple Syrup Festival. 
+		\n
+		\n
+		Purple Woods Conservation Area, the site of the Central Lake Ontario Conservation Authority’s annual Purple Woods Maple Syrup Festival, is a 17-hectare sugar maple forest and open meadow located in the midst of the provincially significant Oak Ridges Moraine. Here one can use the viewing platform that is only steps from the parking area to get a tremendous view south all the way to Lake Ontario from the crest of the Oak Ridges Moraine.
+        \n
+        \n
+       	A short 0.5 km trail allows for a quick stroll down into the hollow. This is where you will find the sugar shack, which is the heart of this operating sugar bush. Visit in mid-March and discover how maple syrup production has changed from early native methods to the modern methods used today (Purple Woods Maple Syrup Festival). Syrup and maple products are also available for sale at this time. If you visit in the spring and summer, you may have the opportunity to see or hear some of the more common forest birds in the canopy of this mature deciduous forest. 
+       	</string>
+    <string name="purple_woods_hikingtext">The short trails at Purple Woods Conservation Area are great for a quick stroll through the mature sugar maple forest. Those looking for a more extended hike can access the Oak Ridges Trail from this Conservation Area.
+</string>
+    <string name="purple_woods_petpolicytext">Pets are permitted within Purple Woods Conservation Area. Please clean up after your pet, and keep them on a leash (maximum 2 m long) at all times. Please note that dogs are not permitted at Purple Woods Conservation Area during the Purple Woods Maple Syrup Festival (mid-March). Pet owners violating these regulations will be fined. 
+</string>
+	<string name="purple_woods_wildlifeviewingtext">A short hike into the middle of the mature sugar maple forest will often reward visitors with the sweet sounds of several different forest bird species. 
+</string>   
+    <string name="purple_woods_naturestudiestext">This area is a great place to go for those wanting to improve their forest plant and bird identification skills without having to venture too far from the car.
+</string>
+	
+    <string name="stephens_gulch_title">STEPHEN\'S GULCH CA</string>
+    <string name="stephens_gulch_directions">From Highway 401, take Liberty Street north to
+        Concession Road 4. Head east until reaching Bethesda Road (north-side of Concession Road 4).
+        Continue along Bethesda Road, turn east onto Stephen Mills Road. Parking lot for
+        Stephen\'s Gulch is on the south side of Stephen Mills Road.</string>
+    <string name="stephens_gulch_description">
+        Located north of Bowmanville, the Stephen\'s Gulch Conservation Area borders a 
+        significant portion of the Soper Creek. The Conservation Area protects a large 
+        area of deciduous forest and coniferous forest/swamp that help maintain both 
+        water quantity (through seeps and springs) and water temperature along this 
+        section the Soper Creek. Stephen\'s Gulch Conservation Area also includes a 
+        portion of the provincially significant Soper Valley Area of Natural and 
+        Scientific Interest (ANSI). 
+       </string>
+    
+    <string name="scugog_description">The Township of Scugog is located in the northern portion of CLOCA\'s jurisdiction and is home to one of CLOCA\'s Conservation Areas (CA)</string>
+        
+    <string name="crows_pass_title">CROW\'S PASS CA</string>
+    <string name="crows_pass_directions">Take Lake Ridge Road north to Chalk Lake Road. Proceed east on Chalk Lake Road until you reach Ashburn Road. Heading north on Ashburn Road, turn west onto Middle March Road. Follow Middle March Road to the very end where there is roadside parking for Crow\'s Pass.</string>
+    <string name="crows_pass_description">The Crow\'s Pass Conservation Area (64 hectares), purchased in 2003 with support from the Oak Ridges Moraine Foundation, the Ontario Ministry of Natural Resources, and the Regional Municipality of Durham, was the first acquisition made by CLOCA in the northwest corner of the jurisdiction. With close proximity to Chalk Lake, a provincial Area of Natural and Scientific Interest located only a short distance to the south of the Crow’s Pass Conservation Area, this area is part of a large and relatively unfragmented forested area that has been designated as a Natural Core Area on the Oak Ridges Moraine. The size and diversity of this largely undisturbed space makes it an important core wildlife habitat area with strong east-west natural connectivity along this portion of the Oak Ridges Moraine. The Crow\’s Pass Conservation Area makes up part of the regionally significant Nonquon Headwaters Area of Natural and Scientific Interest and contains several interesting wetlands that are typical of the rolling topography found within the Oak Ridges Moraine. The 3km trail network makes Crow\'s Pass Conservation Area a great destination for someone looking to do a short hike through the beautiful rolling topography of the Oak Ridges Moraine.</string>
+    
+    <string name="crows_pass_hikingtext">The 3 km trail network makes Crow’s Pass Conservation Area a great destination for someone looking to do a short hike through the beautiful rolling topography of the Oak Ridges Moraine.  Hardwood forest, wetlands, and open meadow make for an enjoyable excursion. 
+        /n /n
+        Crow’s Pass Conservation Area can also be used as a jump off point for hiking along the Oak Ridges Trail. The Oak Ridges Trail runs along the northern boundary of the property, and uses part of the trail network within Crow’s Pass Conservation Area. Follow the Oak Ridges Trail signs and blazes that can be found along the designated route.</string>
+    <string name="crows_pass_picnickingtext">No formal picnicking facilities are provided at Crow’s Pass Conservation. However, feel free to make a seat trailside to enjoy your picnic and the surrounding views.  Please refrain from feeding any interested wildlife, and note that all of our Conservations Areas are garbage free zones – so visitors must take their garbage home with them.</string>
+    <string name="crows_pass_petpolicytext">Pets are permitted within Crow’s Pass Conservation Area. Please clean up after your pet, and keep them on a leash (maximum 2 m long) at all times. Pet owners violating these regulations will be fined. </string>
+	<string name="crows_pass_xcountrytext">The 3 Km trail network offers some opportunities for cross-country skiing at Crow’s Pass Conservation Area. Please be aware that the trails at Crow’s Pass Conservation Area are not groomed, skiing equipment cannot be rented at the Conservation Area, and that opportunities for this activity are weather permitting as determined by the user.</string>
+	<string name="crows_pass_bikingtext">While the trail loop is quite short, Crow’s Pass Conservation Area is a nice area for a leisurely bike ride, or for someone interested in trying out mountain biking without having to commit to a long trail.</string>  
+	<string name="crows_pass_snowshoeingtext">Snowshoeing is permitted on all of the sanctioned trails at Crow’s Pass Conservation Area. Please note that snowshoeing equipment cannot be rented at the Conservation Area. </string> 
+	<string name="crows_pass_wildlifeviewingtext">Crow’s Pass Conservation Area is a great place to see and hear many different bird species. Because of its location within a largely naturalized portion of the Oak Ridges Moraine with high diversity of habitat, you just never know what you are going to see when you are at Crow’s Pass Conservation Area.</string>   
+	<string name="crows_pass_naturestudiestext">Because of the diversity of vegetation communities (forest, woodland, swamp, marsh, thicket, plantation and meadow), Crow’s Pass Conservation Area is a great area to carry out your studies on a variety of topics. Please apply for a Sensitive Areas Permit if you would like to venture beyond the designated trail system and activity areas.</string>
+    
+	<string name="stephens_gulch_hikingtext">The 3 km trail loop makes Stephen’s Gulch Conservation Area a great destination for someone looking to do a short hike through beautiful cedar forest and upland hardwoods, while travelling over an near tributaries of the Soper Creek.</string>
+    <string name="stephens_gulch_picnickingtext">No formal picnicking facilities are provided at Stephen’s Gulch Conservation. However, mowed areas directly surrounding the parking area provide some opportunities to lay out your picnic blanket. Or better yet, make a seat trailside and enjoy the natural surroundings.  Please refrain from feeding any interested wildlife, and note that all of our Conservations Areas are garbage free zones – so visitors must take their garbage home with them.</string>
+    <string name="stephens_gulch_petpolicytext">Pets are permitted within Enniskillen Conservation Area. Please clean up after your pet, and keep them on a leash (maximum 2 m long) at all times. Pet owners violating these regulations will be fined. </string>
+	<string name="stephens_gulch_bikingtext">While the trail loop is quite short, Stephen’s Gulch Conservation Area is a nice area for a leisurely bike ride, or for someone interested in trying out mountain biking without having to commit to a long trail.</string>  
+	<string name="stephens_gulch_wildlifeviewingtext">The cedar forest/swamp communities and upland hardwood forest provide visitors with many different opportunities to view wildlife at all times of the year. </string>   
+	<string name="stephens_gulch_naturestudiestext">Stephen’s Gulch Conservation Area includes an excellent example of a treed cedar forest/swamp valleyland that is typical to this area. Please apply for a Sensitive Areas Permit if you would like to venture beyond the designated trail system and activity areas.</string>
+	    
+    <string name="otherca_description">The Conservation Areas listed below are owned by CLOCA; 
+        however, may not provide for public access or have public access that is managed in 
+        partnership with the local municipality where specified.</string>
+    
+    <string name="audley_woods_description">Located on the Iroquois Beach physiographic 
+        unit at the western extreme of the CLOCA jurisdiction, Audley Road Woods (13 hectares) 
+        lies only a couple of kilometres to the west of Heber Down Conservation Area and several 
+        kilometers to the east of Greenwood Conservation Area (operated by the Town of Ajax). 
+        This land was dedicated to the Central Lake Ontario Conservation Authority as part of a 
+        land development application. This parcel is part of an important wildlife corridor that 
+        connects Heber Down Conservation Area in the east to Greenwood Conservation Area and the 
+        Duffins Creek in the west. This area has no facilities or trails and is not accessible to 
+        the general public. </string>
+        
+    <string name="hampton_description">The Hampton Conservation Area is located in the centre of the 
+        Village of Hampton and includes land that was once known for its bustling mill and extensive 
+        millpond. This area includes a control structure within this section of the Bowmanville Creek 
+        that now functions as an important barrier for other things than water. This control structure 
+        helps to keep non-native fish stocks (i.e. rainbow trout and salmon species) from getting into 
+        the tributaries north of this point where sensitive native stocks of brook trout continue to thrive. 
+        A short municipally maintained trail loop present within the area.
+        </string>
+    <string name="oshawa_valleylands_description">The Oshawa Valleylands stretch from Bloor Street to the Oshawa Harbour along the lower stretch of the Oshawa Creek. This stretch of valleyland is owned by the Central Lake Ontario Conservation Authority in order to protect the ecological attributes of this land and to limit building within this floodplain area of the Oshawa Creek. This area provides a paved trail that connects to other trail networks within the City of Oshawa. The Oshawa Valleylands are managed and maintained by the City of Oshawa. </string>
+    <string name="rahmani_tract_description">The Central Lake Ontario Conservation Authority purchased the Rahmani Tract (28 hectares), located only a short distance west of Purple Woods Conservation Area, in 2003 with support from the Oak Ridges Moraine Foundation, and the Regional Municipality of Durham. The Rahmani Tract is designated as a Natural Linkage Area on the Oak Ridges Moraine because of the role it, and surrounding properties, play in linking more natural spaces to the east with similar areas to the west. This area has no facilities or trails at this time. </string>    
+    <string name="toad_hollow_description">This small area (10 hectares) protects a section of valley along the banks of the Farewell Creek at the boundary of the City of Oshawa and the Municipality of Clarington. Steep valley walls are secured from erosion by mature coniferous and deciduous forest. There are no maintained facilities or trails within this tract of land. </string>
+        
+    <string name="options_title"><i>OPTIONS</i></string>
+    <string name="language_title">Language:</string>
+    <string-array name="language_entries">
+        <item>English</item>
+    </string-array>
+    <string name="help_title"><i>HELP</i></string>
+    <string name="activities_title">Activities</string>
+    
+    <string name="help_text_description">
+            This application was developed by the Central Lake Ontario Conservation Authority (CLOCA)
+            for informational purposes. Users will be able to search through all CLOCA owned Conservation Areas
+            and view the permitted activities at each site.
+        </string>
+        
+    <string name="search_help">
+            The SEARCH function allows you to find a Conservation Area based on the municipality in which it resides.
+            There is also the option to search "Other Areas" which listed the non-public areas within
+            CLOCA\'s jurisdiction.            
+        </string>
+        
+    <string name="map_help">
+            The MAP page displays a mapping application initially centred on the Conservation
+            Area the user is viewing. Trail data is shown as dashed black lines. Standard mobile map applications functions, such as
+            "Pinch" and "Tap", allow for navigation. The tab buttons at the bottom of the screen allow the user
+            to switch between the MAP, LOCATION SERVICES and ACTIVITIES views. Pressing the "Back" button
+            on the mobile device will take the user back to the Conservation Area description page.
+            If the map fails to draw, press the back button on your device and reload the map. If the trail
+            information does not load on the map, pan or zoom on the map to load the data.
+            
+        </string>
+        
+    <string name="activities_help">
+            The ACTIVITIES page displays the activities which can be completed at the correspnding
+            Conservation Area. Each activity is given a description outlining any other
+            regulations or opportunities.
+            
+        </string>
+        
+    <string name="location_help">
+            The "FIND ME" button, found within the MAP page, displays the users current location based on the 
+            GPS with the Android device. As it stands, this will simply display the latitude and longitude coordinates of the users.
+            For future development this functionality is to be incorporated into the mapping application.
+            If the device being used does not have contain GPS functionality then an error message will
+            appear.
+            
+        </string>
+  <string name="accessibilitytext">Generally, this area is stroller and wheelchair friendly.</string>      
+  <string name="payanddisplayparkingtext">Pay and Display Parking is in effect at a cost of: Max. - $5/ vehicle/day or $2/ hour.</string>    
+  <string name="honourboxtext">Parking boxes are located within Parking areas at this conservation areas. Max. - $5/ vehicle/day or $2/ hour</string>	
+  <string name="annualparkingpasstext">Annual parking passes are available for purchase from http://www.cloca.com/con_areas/memberships.php. This pass covers conservation area parking fees and general admission for a period of one year from date of issue.</string>
+  <string name="purplewoodsparkingtext">Purple Woods contains a honour box for parking (Max. - $5/ vehicle/day or $2/ hour) and admission fees will apply during events and festivals. </string>
+</resources>

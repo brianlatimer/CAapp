@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        >
+        <TextView
+        android:id="@+id/search_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		style="@style/municipal_title_style"
+        android:text="CLARINGTON"
+        />
+        </LinearLayout>
+        
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:orientation="vertical"
+           android:padding="5dp"
+           >
+        <TextView 
+            android:id="@+id/clarington_description_title"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+			style="@style/municipal_description_style"
+        	android:text="DESCRIPTION:"
+            />
+        <TextView
+            android:id="@+id/clarington_description_text"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:paddingBottom="10dp"
+        	android:paddingLeft="10dp"
+        	android:text="@string/clarington_description"
+        	/>
+    	<Button
+    	    android:id="@+id/clarington_map_button"
+    	    android:layout_width="125dp"
+    	    android:layout_height="wrap_content"
+    	    android:text="VIEW MAP"
+    	    android:layout_gravity="right"
+    	    />
+    	</LinearLayout>
+    	
+    	<ImageView
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:paddingRight="10dp"
+    	    android:paddingLeft="10dp"
+    	    android:src="@drawable/divider"
+    	    />
+    	<ScrollView 
+    	    android:id="@+id/clarington_scrollview"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:padding="10dp"
+    	    android:layout_gravity="center"
+    	    android:gravity="center"
+    	    >
+    	
+    	<RelativeLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    >
+    	    <TextView 
+    	    android:id="@+id/ca_title_text"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:text="CONSERVATION AREAS:"
+    	    android:textColor="@color/cloca_blue"
+        	android:textStyle="bold"
+        	android:textSize="15dp"
+        	android:paddingBottom="10dp"
+    	    />
+    	    <Button
+    	        android:id="@+id/enniskillen_button"
+    	        android:layout_width="fill_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/ca_title_text"
+    	        android:text="ENNISKILLEN"
+    	        android:gravity="center"
+    	        />
+    	    <Button
+    	        android:id="@+id/bowmanville_westside_button"
+    	        android:layout_width="fill_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/enniskillen_button"
+    	        android:text="BOWMANVILLE / WESTSIDE MARSHES"
+    	        android:gravity="center"
+    	        />
+    	    <Button
+    	        android:id="@+id/stephens_gulch_button"
+    	        android:layout_width="fill_parent"
+    	        android:layout_height="wrap_content"
+    	        android:text="STEPHEN'S GULCH"
+    	        android:layout_below="@+id/bowmanville_westside_button"
+    	        android:gravity="center"
+    	        />
+    	    <Button
+    	        android:id="@+id/long_sault_button"
+    	        android:layout_width="fill_parent"
+    	        android:layout_height="wrap_content"
+    	        android:text="LONG SAULT"
+    	        android:layout_below="@+id/stephens_gulch_button"
+    	        android:gravity="center"
+    	        />
+    	    </RelativeLayout>
+    	    
+    	</ScrollView>
+
+    
+
+</LinearLayout>

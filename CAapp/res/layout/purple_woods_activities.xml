@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/activities_background"
+    >
+    
+        <TextView
+            android:id="@+id/purple_woods_activities_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/title_style"
+            android:text="@string/activities_title"
+            />
+       
+        <ScrollView
+            android:id="@+id/purple_woods_activities_scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+        <LinearLayout
+        	android:id="@+id/purple_woods_activities_layout"
+        	android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    	>
+        
+        <TableLayout
+            android:id="@+id/purple_woods_activities_table"
+            android:layout_width="fill_parent"
+	   		android:layout_height="fill_parent"
+	   		android:orientation="horizontal"
+	   		android:stretchColumns="1"
+            >
+           <TableRow>
+               <TextView
+            		android:id="@+id/hiking_title"
+            		android:text="Hiking"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/purple_woods_hikingimage"
+                    android:src="@drawable/hikingimage" 
+					style="@style/table_image_layout"
+                    />
+             
+                <TextView
+                    android:id="@+id/purple_woods_hikingtext"
+                    android:text="@string/purple_woods_hikingtext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+   
+            
+            <TableRow>
+               <TextView
+            		android:id="@+id/petpolicy_title"
+            		android:text="Pet Policy"
+             		style="@style/table_title_style"
+             		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                >
+                <ImageView 
+                    android:id="@+id/purple_woods_petpolicyimage"
+                    android:src="@drawable/petpolicyimage"
+                    style="@style/table_image_layout"
+                    />
+                <TextView
+                    android:id="@+id/purple_woods_petpolicytext"
+                    android:text="@string/purple_woods_petpolicytext"
+                    style="@style/table_text_layout"
+                     />
+            </TableRow>
+            
+            <TableRow>
+               <TextView
+            		android:id="@+id/wildlifeviewing_title"
+            		android:text="Wildlife Viewing"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                >
+                <ImageView 
+                    android:id="@+id/purple_woods_wildlifeviewingimage"
+                    android:src="@drawable/wildlifeviewingimage"
+                    style="@style/table_image_layout"
+                    />
+                <TextView
+                    android:id="@+id/purple_woods_wildlifeviewingtext"
+                    android:text="@string/purple_woods_wildlifeviewingtext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+            <TableRow>
+               <TextView
+            		android:id="@+id/naturestudies_title"
+            		android:text="Nature Studies"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                >
+                <ImageView 
+                    android:id="@+id/purple_woods_naturestudiesimage"
+                    android:src="@drawable/naturestudiesimage"
+                    style="@style/table_image_layout"
+                    />
+                <TextView
+                    android:id="@+id/purple_woods_naturestudiestext"
+                    android:text="@string/purple_woods_naturestudiestext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+        </TableLayout>
+        
+    </LinearLayout>
+</ScrollView>
+   
+
+</LinearLayout>

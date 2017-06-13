@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:weightSum="1"
+       android:orientation="vertical"
+	>
+<RelativeLayout 
+		android:id="@+id/rahmani_tract_maplayout"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/layout_border"
+       android:layout_weight="0.8"
+       >
+    <TextView
+        android:id="@+id/rahmani_tract_map_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="RAHMANI TRACT"
+        style="@style/map_style"
+        />           
+     <com.esri.android.map.MapView
+        android:id="@+id/rahmani_tract_mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        initExtent="-8786692 5470890 -8788033 5469545"
+        android:layout_below="@+id/rahmani_tract_map_title"
+        /> 
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        >
+    <TextView 
+        android:id="@+id/map_filler"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        />
+	</LinearLayout>
+</LinearLayout>

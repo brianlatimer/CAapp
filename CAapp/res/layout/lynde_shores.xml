@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lynde_shoreslayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+     >
+
+      
+    <LinearLayout
+	    android:id="@+id/home_sublayout3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:padding="5dp"
+	    >
+    <TextView
+            android:id="@+id/lynde_shorestitle"
+            android:text="@string/lynde_shores_title"
+            android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+			style="@style/ca_title_style"
+			android:background="@drawable/ca_title_header"
+            />
+
+	<TableLayout
+	    android:id="@+id/lynde_shores_tablelayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:gravity="center"
+		android:stretchColumns="1,2"
+		android:paddingTop="5dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+	  	>
+    <TableRow>
+        <Button
+	    android:id="@+id/lynde_shores_activities_button"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_column="1"
+	    android:textStyle="bold"
+	    android:text="ACTIVITIES" 	
+	    />
+
+        <Button
+            android:id="@+id/view_lynde_shores_map_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:textStyle="bold"
+            android:text="VIEW MAP" />
+	    </TableRow>
+	    </TableLayout>
+
+</LinearLayout>
+<ImageView
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:paddingTop="5dp"
+    	    android:paddingRight="10dp"
+    	    android:paddingLeft="10dp"
+    	    android:src="@drawable/divider"
+    	    />
+
+<ScrollView
+       	android:id="@+id/lynde_shores_scroll_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+	 <LinearLayout
+        android:id="@+id/lynde_shores_linear_scroll_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:id="@+id/lynde_shores_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:src="@drawable/lynde_shores_photo"
+        android:background="@drawable/ca_image_border"
+        android:layout_gravity="center"
+        />
+    
+    <TableLayout
+            android:id="@+id/accessibility_table"
+            android:layout_width="fill_parent"
+	   		android:layout_height="fill_parent"
+	   		android:orientation="horizontal"
+	   		android:paddingTop="10dp"
+	   		android:stretchColumns="1"
+            >
+           <TableRow>
+               <TextView
+            		android:id="@+id/accessibility_title"
+            		android:text="Accessibility"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/accessibilityimage"
+                    android:src="@drawable/accessibilityimage" 
+					style="@style/table_image_layout"
+                    />
+             
+                <TextView
+                    android:id="@+id/accessibilitytext"
+                    android:text="@string/accessibilitytext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+            <TableRow>
+               <TextView
+            		android:id="@+id/parking_title"
+            		android:text="Parking"
+            		style="@style/table_title_style"
+            		android:background="@drawable/activities_title_header"
+            		/>
+               </TableRow>
+            <TableRow
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/parkingimage"
+                    android:src="@drawable/parkingimage" 
+					style="@style/table_image_layout"
+                    />
+             
+                <TextView
+                    android:id="@+id/parkingtext"
+                    android:text="@string/payanddisplayparkingtext"
+                    style="@style/table_text_layout"
+                    />
+            </TableRow>
+            
+            </TableLayout>
+    <TextView
+        android:id="@+id/description_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/ca_title_header"
+        android:text="@string/description_title" />
+    
+    <TextView
+        android:id="@+id/lynde_shores_description"
+        android:layout_width="fill_parent"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lynde_shores_description"
+         />
+       
+    
+    </LinearLayout>
+    </ScrollView>
+
+ </LinearLayout>

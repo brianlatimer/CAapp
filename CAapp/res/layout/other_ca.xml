@@ -1,0 +1,279 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/othercalayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+     >
+     
+    <LinearLayout
+	    android:id="@+id/home_sublayout3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_gravity="center"
+	    android:orientation="vertical"
+	    android:padding="5dp"
+	    >
+    <TextView
+            android:id="@+id/othercatitle"
+            android:text="OTHER AREAS"
+            android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+			style="@style/ca_title_style"
+			android:background="@drawable/ca_title_header"
+            />
+    <TextView
+        android:id="@+id/othercadescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/otherca_description"
+        android:padding="10dp"
+        />
+    <ImageView
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:paddingTop="5dp"
+    	    android:paddingRight="10dp"
+    	    android:paddingLeft="10dp"
+    	    android:src="@drawable/divider"
+    	    />
+    </LinearLayout>
+ 	<ScrollView
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    >
+ 	    <RelativeLayout
+ 	        android:id="@+id/otherca_scrollview"
+ 	        android:layout_width="fill_parent"
+ 	        android:layout_height="wrap_content"
+ 	        >
+ 	        <TableLayout 
+ 	            android:id="@+id/audley_road_table"
+ 	            android:layout_width="fill_parent"
+ 	            android:layout_height="wrap_content"
+ 	            >
+ 	            <TableRow
+ 	                android:layout_width="fill_parent"
+ 	                android:layout_height="wrap_content"
+ 	                android:gravity="center"
+ 	                android:paddingTop="10dp"
+ 	                android:paddingLeft="10dp"
+ 	                android:paddingRight="10dp"
+ 	                android:shrinkColumns="1"
+ 	                android:stretchColumns="0" >
+ 	                <TextView
+ 	                    android:id="@+id/audley_woods_title"
+ 	                    android:layout_width="fill_parent"
+ 	                    android:layout_height="wrap_content"
+ 	                    android:layout_column="0"
+ 	                    android:layout_gravity="center"
+ 	                    android:layout_weight="1"
+ 	                    android:gravity="left"
+ 	                    android:text="Audley Woods Valleylands"
+ 	                    android:textColor="#0A9AB5"
+ 	                    android:textSize="20dp"
+ 	                    android:textStyle="bold" />
+ 	                <Button
+ 	                    android:id="@+id/audley_woods_button"
+ 	                    android:layout_width="wrap_content"
+ 	                    android:layout_height="wrap_content"
+ 	                    android:layout_column="1"
+ 	                    android:text="View Map" />
+ 	            </TableRow> 	            
+ 	          		<TextView 
+ 	            		android:id="@+id/audley_woods_description"
+ 	            		android:layout_width="fill_parent"
+ 	            		android:layout_height="wrap_content"
+ 	            		android:text="@string/audley_woods_description"
+ 	            		android:paddingLeft="10dp"
+ 	            		android:paddingRight="10dp"
+ 	            		android:paddingTop="5dp"
+  	            		/>
+ 	          	</TableLayout>
+ 	          	
+ 	          	<TableLayout 
+ 	            android:id="@+id/hampton_table"
+ 	            android:layout_width="fill_parent"
+ 	            android:layout_height="wrap_content"
+ 	            android:layout_below="@+id/audley_road_table"
+ 	            >
+ 	            <TableRow
+ 	                android:layout_width="fill_parent"
+ 	                android:layout_height="wrap_content"
+ 	                android:gravity="center"
+ 	                android:paddingTop="10dp"
+ 	                android:paddingLeft="10dp"
+ 	                android:paddingRight="10dp"
+ 	                android:shrinkColumns="1"
+ 	                android:stretchColumns="0" >
+ 	                <TextView
+ 	                    android:id="@+id/hampton_title"
+ 	                    android:layout_width="fill_parent"
+ 	                    android:layout_height="wrap_content"
+ 	                    android:layout_column="0"
+ 	                    android:layout_gravity="center"
+ 	                    android:layout_weight="1"
+ 	                    android:gravity="left"
+ 	                    android:text="Hampton Conservation Area"
+ 	                    android:textColor="#0A9AB5"
+ 	                    android:textSize="20dp"
+ 	                    android:textStyle="bold" />
+ 	                <Button
+ 	                    android:id="@+id/hampton_button"
+ 	                    android:layout_width="wrap_content"
+ 	                    android:layout_height="wrap_content"
+ 	                    android:layout_column="1"
+ 	                    android:text="View Map" />
+ 	            </TableRow> 	            
+ 	          		<TextView 
+ 	            		android:id="@+id/hampton_description"
+ 	            		android:layout_width="fill_parent"
+ 	            		android:layout_height="wrap_content"
+ 	            		android:text="@string/hampton_description"
+ 	            		android:paddingLeft="10dp"
+ 	            		android:paddingRight="10dp"
+ 	            		android:paddingTop="5dp"
+  	            		/>
+ 	        </TableLayout>
+ 	        
+ 	        <TableLayout 
+ 	            android:id="@+id/oshawa_valleylands_table"
+ 	            android:layout_width="fill_parent"
+ 	            android:layout_height="wrap_content"
+ 	            android:layout_below="@+id/hampton_table"
+ 	            >
+ 	            <TableRow
+ 	                android:layout_width="fill_parent"
+ 	                android:layout_height="wrap_content"
+ 	                android:gravity="center"
+ 	                android:paddingTop="10dp"
+ 	                android:paddingLeft="10dp"
+ 	                android:paddingRight="10dp"
+ 	                android:shrinkColumns="1"
+ 	                android:stretchColumns="0" >
+ 	                <TextView
+ 	                    android:id="@+id/oshawa_valleylands_title"
+ 	                    android:layout_width="fill_parent"
+ 	                    android:layout_height="wrap_content"
+ 	                    android:layout_column="0"
+ 	                    android:layout_gravity="center"
+ 	                    android:layout_weight="1"
+ 	                    android:gravity="left"
+ 	                    android:text="Oshawa Valleylands"
+ 	                    android:textColor="#0A9AB5"
+ 	                    android:textSize="20dp"
+ 	                    android:textStyle="bold" />
+ 	                <Button
+ 	                    android:id="@+id/oshawa_valleylands_button"
+ 	                    android:layout_width="wrap_content"
+ 	                    android:layout_height="wrap_content"
+ 	                    android:layout_column="1"
+ 	                    android:text="View Map" />
+ 	            </TableRow> 	            
+ 	          		<TextView 
+ 	            		android:id="@+id/oshawa_valleylands_description"
+ 	            		android:layout_width="fill_parent"
+ 	            		android:layout_height="wrap_content"
+ 	            		android:text="@string/oshawa_valleylands_description"
+ 	            		android:paddingLeft="10dp"
+ 	            		android:paddingRight="10dp"
+ 	            		android:paddingTop="5dp"
+  	            		/>
+ 	        </TableLayout>
+ 	        
+ 	            <TableLayout 
+ 	            android:id="@+id/rahmani_tract_table"
+ 	            android:layout_width="fill_parent"
+ 	            android:layout_height="wrap_content"
+ 	            android:layout_below="@+id/oshawa_valleylands_table"
+ 	            >
+ 	            <TableRow
+ 	                android:layout_width="fill_parent"
+ 	                android:layout_height="wrap_content"
+ 	                android:gravity="center"
+ 	                android:paddingTop="10dp"
+ 	                android:paddingLeft="10dp"
+ 	                android:paddingRight="10dp"
+ 	                android:shrinkColumns="1"
+ 	                android:stretchColumns="0" >
+ 	                <TextView
+ 	                    android:id="@+id/rahmani_tract_title"
+ 	                    android:layout_width="fill_parent"
+ 	                    android:layout_height="wrap_content"
+ 	                    android:layout_column="0"
+ 	                    android:layout_gravity="center"
+ 	                    android:layout_weight="1"
+ 	                    android:gravity="left"
+ 	                    android:text="Rahmani Tract"
+ 	                    android:textColor="#0A9AB5"
+ 	                    android:textSize="20dp"
+ 	                    android:textStyle="bold" />
+ 	                <Button
+ 	                    android:id="@+id/rahmani_tract_button"
+ 	                    android:layout_width="wrap_content"
+ 	                    android:layout_height="wrap_content"
+ 	                    android:layout_column="1"
+ 	                    android:text="View Map" />
+ 	            </TableRow> 	            
+ 	          		<TextView 
+ 	            		android:id="@+id/rahmani_tract_description"
+ 	            		android:layout_width="fill_parent"
+ 	            		android:layout_height="wrap_content"
+ 	            		android:text="@string/rahmani_tract_description"
+ 	            		android:paddingLeft="10dp"
+ 	            		android:paddingRight="10dp"
+ 	            		android:paddingTop="5dp"
+  	            		/>
+ 	        </TableLayout>
+ 	        
+ 	        <TableLayout 
+ 	            android:id="@+id/toad_hollow_table"
+ 	            android:layout_width="fill_parent"
+ 	            android:layout_height="wrap_content"
+ 	            android:layout_below="@+id/rahmani_tract_table"
+ 	            >
+ 	            <TableRow
+ 	                android:layout_width="fill_parent"
+ 	                android:layout_height="wrap_content"
+ 	                android:gravity="center"
+ 	                android:paddingTop="10dp"
+ 	                android:paddingLeft="10dp"
+ 	                android:paddingRight="10dp"
+ 	                android:shrinkColumns="1"
+ 	                android:stretchColumns="0" >
+ 	                <TextView
+ 	                    android:id="@+id/toad_hollow_title"
+ 	                    android:layout_width="fill_parent"
+ 	                    android:layout_height="wrap_content"
+ 	                    android:layout_column="0"
+ 	                    android:layout_gravity="center"
+ 	                    android:layout_weight="1"
+ 	                    android:gravity="left"
+ 	                    android:text="Toad Hollow Valleylands"
+ 	                    android:textColor="#0A9AB5"
+ 	                    android:textSize="20dp"
+ 	                    android:textStyle="bold" />
+ 	                <Button
+ 	                    android:id="@+id/toad_hollow_button"
+ 	                    android:layout_width="wrap_content"
+ 	                    android:layout_height="wrap_content"
+ 	                    android:layout_column="1"
+ 	                    android:text="View Map" />
+ 	            </TableRow> 	            
+ 	          		<TextView 
+ 	            		android:id="@+id/toad_hollow_description"
+ 	            		android:layout_width="fill_parent"
+ 	            		android:layout_height="wrap_content"
+ 	            		android:text="@string/toad_hollow_description"
+ 	            		android:paddingLeft="10dp"
+ 	            		android:paddingRight="10dp"
+ 	            		android:paddingTop="5dp"
+ 	            		android:paddingBottom="10dp"
+  	            		/>
+ 	        </TableLayout> 
+ 	                
+ 	    </RelativeLayout>
+ 	</ScrollView>
+</LinearLayout>

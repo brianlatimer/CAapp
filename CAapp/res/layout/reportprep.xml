@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reportprep"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:configChanges="orientation">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >        
+        <TextView
+            android:id="@+id/search_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ca_title_header"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/report_title"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/report_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10sp" />
+    
+    <TextView
+        android:id="@+id/category_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:gravity="center_horizontal"
+        android:padding="10sp"
+        android:text="@string/category_info" />
+    <TableLayout 
+        android:id="@+id/reportprepbuttons"
+        android:layout_width="fill_parent"
+    	android:layout_height="40sp"
+    	android:configChanges="orientation"
+    	android:stretchColumns="*">
+		<TableRow
+		   android:layout_width="fill_parent"
+           android:layout_height="wrap_content">                                            
+		    <Button
+		        android:id="@+id/btnSelectPhoto"
+		        android:layout_width="110sp"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:text="@string/selectpicture" />
+		    
+		    <Button
+		        android:id="@+id/btnTakeVid"
+		        android:layout_width="100sp"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:text="@string/takevid"
+		        android:visibility="invisible" /> 
+		        
+		    <Button
+		        android:id="@+id/btnTakePhoto"
+		        android:layout_width="110sp"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="right"
+		        android:text="@string/takepicture"
+		        android:visibility="visible" /> 
+        </TableRow>   
+        </TableLayout>     
+        <VideoView 
+      		android:layout_height="12sp" 
+      		android:layout_width="10sp" 
+      		android:visibility="invisible"
+      		android:id="@+id/videoView1" />
+        <EditText
+            android:id="@+id/gps_loc"
+            android:layout_width="fill_parent"
+            android:layout_height="50sp"
+            android:hint="@string/loc_txt"
+            android:lines="1" />
+        
+		<EditText 
+		    android:id="@+id/description_new"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:lines="5"/>
+        <Button
+        	android:id="@+id/send_report_button"
+        	android:layout_width="150sp"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:text="@string/sendreport" />
+</LinearLayout>

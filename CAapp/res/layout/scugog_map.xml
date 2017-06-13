@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scugog_maplayout"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/layout_border"
+       >
+    <TextView
+        android:id="@+id/scugog_map_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SCUGOG"
+		style="@style/map_style"
+        />
+     <com.esri.android.map.MapView
+        android:id="@+id/scugog_mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        initExtent="-8752040 5478137 -8803957 5436877"
+        />
+
+</RelativeLayout>
